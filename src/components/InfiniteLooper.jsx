@@ -57,7 +57,7 @@ function InfiniteLooper() {
         ease: "none",
         duration: 10,
       });
-  }, [amount]);
+}, [amount]);
 
   return (
     <div className='flex pt-[3rem] flex-col gap-[1rem]'>
